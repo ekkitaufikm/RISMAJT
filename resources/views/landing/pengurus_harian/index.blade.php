@@ -37,7 +37,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="team-item">
                     <div class="team-img">
-                        <img src="landing/img/foto-foto/fotoDepartemen/departemenHumas/faiq.png" alt="Team Image">
+                        <img src="{{ asset('assets/landing/img/foto-foto/fotoDepartemen/departemenHumas/faiq.png') }}" alt="Team Image">
                     </div>
                     <div class="team-text">
                         <h2>Faiq Raihan</h2>
@@ -56,7 +56,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="team-item">
                     <div class="team-img">
-                        <img src="landing/img/foto-foto/fotoDepartemen/departemenHumas/faiq.png" alt="Team Image">
+                        <img src="{{ asset('assets/landing/img/foto-foto/fotoDepartemen/departemenHumas/faiq.png') }}" alt="Team Image">
                     </div>
                     <div class="team-text">
                         <h2>Faiq Raihan</h2>
@@ -75,7 +75,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="team-item">
                     <div class="team-img">
-                        <img src="landing/img/foto-foto/fotoDepartemen/departemenHumas/faiq.png" alt="Team Image">
+                        <img src="{{ asset('assets/landing/img/foto-foto/fotoDepartemen/departemenHumas/faiq.png') }}" alt="Team Image">
                     </div>
                     <div class="team-text">
                         <h2>Faiq Raihan</h2>
@@ -94,7 +94,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="team-item">
                     <div class="team-img">
-                        <img src="landing/img/foto-foto/fotoDepartemen/departemenHumas/faiq.png" alt="Team Image">
+                        <img src="{{ asset('assets/landing/img/foto-foto/fotoDepartemen/departemenHumas/faiq.png') }}" alt="Team Image">
                     </div>
                     <div class="team-text">
                         <h2>Faiq Raihan</h2>
