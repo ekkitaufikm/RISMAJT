@@ -528,9 +528,9 @@
                             <img src="{{ asset('assets/landing/img/LOGORISMA.png') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <a href="/DepartemenHumas">
-                                <h2>Departemen Humas</h2>
-                            <p>Penanggung Jawab : Ahmad Ngusman</p>
+                            <a href="{{ url('pengurus_harian') }}">
+                                <h2>Pengurus Harian</h2>
+                            <p>Penanggung Jawab : Adib CM</p>
                             </a>
                             <div class="team-social">
                                 <a href="https://www.instagram.com/raihanfaiq/?hl=id"><i class="fab fa-twitter"></i></a>
@@ -606,7 +606,7 @@
                             <img src="{{ asset('assets/landing/img/LOGORISMA.png') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <a href="/Lembaga Sosial">
+                            <a href="{{ url('sosial') }}">
                                 <h2>Lembaga Sosial</h2>
                             <p>Penanggung Jawab : Khulwa Azro</p>
                             </a>
@@ -625,9 +625,9 @@
                             <img src="{{ asset('assets/landing/img/LOGORISMA.png') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <a href="/Lembaga Sosial">
-                                <h2>Lembaga Sosial</h2>
-                            <p>Penanggung Jawab : Khulwa Azro</p>
+                            <a href="{{ url('dakwah') }}">
+                                <h2>Lembaga Dakwah</h2>
+                            <p>Penanggung Jawab : Shuffy</p>
                             </a>
                             <div class="team-social">
                                 <a href="https://www.instagram.com/raihanfaiq/?hl=id"><i class="fab fa-twitter"></i></a>

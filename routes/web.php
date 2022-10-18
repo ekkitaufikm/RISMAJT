@@ -21,3 +21,12 @@ Route::post('loginProses', ('AuthController@loginProses'));
 
 Route::get('service', ('Landing\ServiceController@index'));
 
+//pengurus harian
+Route::get('pengurus_harian', ('Landing\PengurusHarianController@index'));
+
+//departemen 
+Route::get('humas', ('Landing\HumasController@index'));
+
+//lembaga
+Route::get('sosial', ('Landing\SosialController@index'));
+Route::get('dakwah', ('Landing\DakwahController@index'));
