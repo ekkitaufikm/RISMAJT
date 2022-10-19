@@ -1,0 +1,7 @@
+todo rifki
+1. edit logo
+2. bagian video, js  nya dimatrikan -> biar ga auto scroll
+3. sambutan mas adib dibawah about risma -> seuai dengan web yang ta buat sebelumnya (about us/sambutan)
+4. edit popular link -> footer
+5. edit 150 + anggota (background MAJT4.jpg)
+6. edit video profile (jadi foto yang disamping about diganti dengan video letak file video di public/landing/vid/279828482_180634337625214_4302335691609258449_n-2.mp4)

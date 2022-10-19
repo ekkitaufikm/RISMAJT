@@ -546,7 +546,7 @@
                             <img src="{{ asset('assets/landing/img/LOGORISMA.png') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <a href="/DepartemenHumas">
+                            <a href="{{ url('humas') }}">
                                 <h2>Departemen Humas</h2>
                             <p>Penanggung Jawab : Ahmad Ngusman</p>
                             </a>
