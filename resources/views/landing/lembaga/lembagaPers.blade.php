@@ -15,11 +15,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>Lembaga Sosial</h2>
+                <h2>lembaga pers Jurnalistik dan Desain Sinematografi</h2>
             </div>
             <div class="col-12">
                 <a href="/">Home</a>
-                <a href="#">Lembaga Sosial</a>
+                <a href="#">lembaga pers Jurnalistik dan Desain Sinematografi</a>
             </div>
         </div>
     </div>
@@ -31,7 +31,7 @@
             <div class="container">
                 <div class="section-header text-center">
                     <p>Pengurus 2021/2022</p>
-                    <h2>Lembaga Sosial</h2>
+                    <h2>lembaga pers Jurnalistik dan Desain Sinematografi</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">

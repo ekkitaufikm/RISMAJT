@@ -115,7 +115,7 @@
                                 {{-- masi bingung --}}
                             </div>
                             <br><br>
-                            <a href="{{ url('service') }}"><button class="button-88" role="button">Read More</button></a>
+                            <a href="{{ url('About') }}"><button class="button-88" role="button">Read More</button></a>
                         </div>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
             </p> --}}
             <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
             {{-- <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/Za5-fvwbPJI?rel=0&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> --}}
-            </div>
+        </div>
         </div>
         </div>
     </div>
@@ -530,7 +530,7 @@
                         <div class="team-text">
                             <a href="{{ url('pengurus_harian') }}">
                                 <h2>Pengurus Harian</h2>
-                            <p>Penanggung Jawab : Adib CM</p>
+                            <p>Ketua Umum : Adib CM</p>
                             </a>
                             <div class="team-social">
                                 <a href="https://www.instagram.com/raihanfaiq/?hl=id"><i class="fab fa-twitter"></i></a>
@@ -565,9 +565,9 @@
                             <img src="{{ asset('assets/landing/img/LOGORISMA.png') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <a href="/DepartemenHumas">
-                                <h2>Departemen Humas</h2>
-                            <p>Penanggung Jawab : Ahmad Ngusman</p>
+                            <a href="{{ url('kadiklat') }}">
+                                <h2>Departemen Kaderisasi, Pendidikan dan Pelatihan</h2>
+                            <p>Ketua Bagian : Muhammad Rohimun Hidayah</p>
                             </a>
                             <div class="team-social">
                                 <a href="https://www.instagram.com/raihanfaiq/?hl=id"><i class="fab fa-twitter"></i></a>
@@ -584,9 +584,9 @@
                             <img src="{{ asset('assets/landing/img/LOGORISMA.png') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <a href="/DepartemenHumas">
-                                <h2>Departemen Humas</h2>
-                            <p>Penanggung Jawab : Ahmad Ngusman</p>
+                            <a href="{{ url('bakmin') }}">
+                                <h2>Departemen Bakat Minat</h2>
+                            <p>Ketua Bagian : Fachriza Dimas A</p>
                             </a>
                             <div class="team-social">
                                 <a href="https://www.instagram.com/raihanfaiq/?hl=id"><i class="fab fa-twitter"></i></a>
@@ -606,9 +606,28 @@
                             <img src="{{ asset('assets/landing/img/LOGORISMA.png') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <a href="{{ url('sosial') }}">
-                                <h2>Lembaga Sosial</h2>
-                            <p>Penanggung Jawab : Khulwa Azro</p>
+                            <a href="{{ url('proad') }}">
+                                <h2>Departemen Properti dan Administrasi</h2>
+                            <p>Ketua Bagian : Nurul Vera Septiana,SH</p>
+                            </a>
+                            <div class="team-social">
+                                <a href="https://www.instagram.com/raihanfaiq/?hl=id"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/raihanfaiq/?hl=id"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/raihanfaiq/?hl=id"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('assets/landing/img/LOGORISMA.png') }}" alt="Team Image">
+                        </div>
+                        <div class="team-text">
+                            <a href="{{ url('pers') }}">
+                                <h2>lembaga pers Jurnalistik dan Desain Sinematografi</h2>
+                            <p>Ketua Bagian : Vera Fitri Apriliani , A.Md</p>
                             </a>
                             <div class="team-social">
                                 <a href="https://www.instagram.com/raihanfaiq/?hl=id"><i class="fab fa-twitter"></i></a>
@@ -627,7 +646,7 @@
                         <div class="team-text">
                             <a href="{{ url('dakwah') }}">
                                 <h2>Lembaga Dakwah</h2>
-                            <p>Penanggung Jawab : Shuffy</p>
+                            <p>Penanggung Jawab : Muh . Syufiy Al Alimi</p>
                             </a>
                             <div class="team-social">
                                 <a href="https://www.instagram.com/raihanfaiq/?hl=id"><i class="fab fa-twitter"></i></a>
@@ -644,9 +663,9 @@
                             <img src="{{ asset('assets/landing/img/LOGORISMA.png') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <a href="/Lembaga Sosial">
-                                <h2>Lembaga Sosial</h2>
-                            <p>Penanggung Jawab : Khulwa Azro</p>
+                            <a href="{{ url('ekonomi') }}">
+                                <h2>Lembaga Ekonomi</h2>
+                            <p>ketua Bagian :  Wieske Utami , S.Pd</p>
                             </a>
                             <div class="team-social">
                                 <a href="https://www.instagram.com/raihanfaiq/?hl=id"><i class="fab fa-twitter"></i></a>
@@ -663,9 +682,9 @@
                             <img src="{{ asset('assets/landing/img/LOGORISMA.png') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <a href="/Lembaga Sosial">
+                            <a href="{{ url('sosial') }}">
                                 <h2>Lembaga Sosial</h2>
-                            <p>Penanggung Jawab : Khulwa Azro</p>
+                            <p>Penanggung Jawab : Zubaidah</p>
                             </a>
                             <div class="team-social">
                                 <a href="https://www.instagram.com/raihanfaiq/?hl=id"><i class="fab fa-twitter"></i></a>

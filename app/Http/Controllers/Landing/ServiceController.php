@@ -11,10 +11,10 @@ class ServiceController extends Controller
     private $views      = 'landing/service';
     
     // Untuk keperluan redirect, hubungannya route / file web
-    private $url        = 'service';
+    private $url        = 'About';
     
     // Title head
-    private $title      = 'Service | Risma JT';
+    private $title      = 'About Risma JT';
 
     public function __construct()
     {

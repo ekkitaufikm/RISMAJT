@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class SosialController extends Controller
 {
     // Untuk panggil view
-    private $views      = 'landing/sosial';
+    private $views      = 'landing/lembaga';
     
     // Untuk keperluan redirect, hubungannya route / file web
     private $url        = 'sosial';
@@ -29,7 +29,7 @@ class SosialController extends Controller
             'url'           => $this->url,
         ];
         // View
-        return view($this->views . "/index", $data);
+        return view($this->views . "/lembagaSosial", $data);
     }
 
     public function create()

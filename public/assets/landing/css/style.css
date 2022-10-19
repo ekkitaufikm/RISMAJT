@@ -542,6 +542,129 @@ a:focus {
 /******* Page Header CSS *******/
 /*******************************/
 
+/* css lembaga */
+    /* khusus dakwah */
+    .page-dakwah {
+        position: relative;
+        margin-bottom: 45px;
+        padding: 210px 0 90px 0;
+        text-align: center;
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/foto-foto/fotoDepartemen/departemenHumas/cover/IMG_0630.JPG);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .page-dakwah h2 {
+        position: relative;
+        color: #FDBE33;
+        font-size: 60px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+    }
+    
+    .page-dakwah h2::after {
+        position: absolute;
+        content: "";
+        width: 100px;
+        height: 2px;
+        left: calc(50% - 50px);
+        bottom: 0;
+        background: #FDBE33;
+    }
+    
+    .page-dakwah a {
+        position: relative;
+        padding: 0 12px;
+        font-size: 22px;
+        color: #ffffff;
+    }
+    
+    .page-dakwah a:hover {
+        color: #FDBE33;
+    }
+    
+    .page-dakwah a::after {
+        position: absolute;
+        content: "/";
+        width: 8px;
+        height: 8px;
+        top: -2px;
+        right: -7px;
+        text-align: center;
+        color: #ffffff;
+    }
+    
+    .page-dakwah a:last-child::after {
+        display: none;
+    }
+    
+    /* end of khusus dakwah */
+
+    /* khusus sosial */
+.page-sosial {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 210px 0 90px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/foto-foto/fotoDepartemen/departemenHumas/cover/IMG_0630.JPG);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-sosial h2 {
+    position: relative;
+    color: #FDBE33;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.page-sosial h2::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    left: calc(50% - 50px);
+    bottom: 0;
+    background: #FDBE33;
+}
+
+.page-sosial a {
+    position: relative;
+    padding: 0 12px;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.page-sosial a:hover {
+    color: #FDBE33;
+}
+
+.page-sosial a::after {
+    position: absolute;
+    content: "/";
+    width: 8px;
+    height: 8px;
+    top: -2px;
+    right: -7px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.page-sosial a:last-child::after {
+    display: none;
+}
+
+/* end of khusus sosial */
+
+/* end of css lembaga */
+
 /* khusus humas */
 .page-kepala {
     position: relative;
@@ -2425,3 +2548,4 @@ img.imgthumb {
     transform: translate(-50%,-50%);
     font: 14px arial;
     /* kalo tanya css merah kenapa? gara2 css ini . yang preloader */
+

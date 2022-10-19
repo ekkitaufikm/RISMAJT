@@ -5,16 +5,16 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class HumasController extends Controller
+class KadiklatController extends Controller
 {
     // Untuk panggil view
     private $views      = 'landing/departemen';
     
     // Untuk keperluan redirect, hubungannya route / file web
-    private $url        = 'humas';
+    private $url        = 'kadiklat';
     
     // Title head
-    private $title      = 'Departemen Humas | Risma JT';
+    private $title      = 'Departemen Kadiklat | Risma JT';
 
     public function __construct()
     {
@@ -29,7 +29,7 @@ class HumasController extends Controller
             'url'           => $this->url,
         ];
         // View
-        return view($this->views . "/departemenHumas", $data);
+        return view($this->views . "/departemenKadiklat", $data);
     }
 
     public function create()

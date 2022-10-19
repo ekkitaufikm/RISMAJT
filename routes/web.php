@@ -19,14 +19,20 @@ Route::get('login', ('AuthController@login'));
 Route::get('logout', ('AuthController@logout'));
 Route::post('loginProses', ('AuthController@loginProses'));
 
-Route::get('service', ('Landing\ServiceController@index'));
+// tentang risma
+Route::get('About', ('Landing\ServiceController@index'));
 
 //pengurus harian
 Route::get('pengurus_harian', ('Landing\PengurusHarianController@index'));
 
 //departemen 
 Route::get('humas', ('Landing\HumasController@index'));
+Route::get('kadiklat', ('Landing\KadiklatController@index'));
+Route::get('proad', ('Landing\ProadController@index'));
+Route::get('bakmin', ('Landing\BakminController@index'));
 
 // lembaga
 Route::get('sosial', ('Landing\SosialController@index'));
 Route::get('dakwah', ('Landing\DakwahController@index'));
+Route::get('ekonomi', ('Landing\EkonomiController@index'));
+Route::get('pers', ('Landing\PersController@index'));

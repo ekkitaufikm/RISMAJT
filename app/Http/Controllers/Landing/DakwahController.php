@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class DakwahController extends Controller
 {
     // Untuk panggil view
-    private $views      = 'landing/dakwah';
+    private $views      = 'landing/lembaga';
     
     // Untuk keperluan redirect, hubungannya route / file web
     private $url        = 'dakwah';
@@ -29,7 +29,7 @@ class DakwahController extends Controller
             'url'           => $this->url,
         ];
         // View
-        return view($this->views . "/index", $data);
+        return view($this->views . "/lembagaDakwah", $data);
     }
 
     public function create()
