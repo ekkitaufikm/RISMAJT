@@ -15,11 +15,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>Pengurus Harian</h2>
+                <h2>Departemen Humas</h2>
             </div>
             <div class="col-12">
                 <a href="/">Home</a>
-                <a href="#">Pengurus Harian</a>
+                <a href="#">Departemen Humas</a>
             </div>
         </div>
     </div>
@@ -37,7 +37,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="landing/img/foto-foto/fotoDepartemen/departemenHumas/faiq.png" alt="Team Image">
+                                <img src="{{ asset('assets/landing/img/foto-foto/fotoDepartemen/departemenHumas/ustman.png') }}" alt="Team Image">
                             </div>
                             <div class="team-text">
                                 <h2>Faiq Raihan</h2>
@@ -56,7 +56,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="landing/img/foto-foto/fotoDepartemen/departemenHumas/faiq.png" alt="Team Image">
+                                <img src="{{ asset('assets/landing/img/foto-foto/fotoDepartemen/departemenHumas/faiq.png') }}" alt="Team Image">
                             </div>
                             <div class="team-text">
                                 <h2>Faiq Raihan</h2>
@@ -75,7 +75,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="landing/img/foto-foto/fotoDepartemen/departemenHumas/faiq.png" alt="Team Image">
+                                <img src="{{ asset('assets/landing/img/foto-foto/fotoDepartemen/departemenHumas/liana.png') }}" alt="Team Image">
                             </div>
                             <div class="team-text">
                                 <h2>Faiq Raihan</h2>
