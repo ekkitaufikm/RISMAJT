@@ -5,16 +5,16 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class ServiceController extends Controller
+class AboutusController extends Controller
 {
     // Untuk panggil view
     private $views      = 'landing/service';
     
     // Untuk keperluan redirect, hubungannya route / file web
-    private $url        = 'About';
+    private $url        = 'About-us';
     
     // Title head
-    private $title      = 'About Risma JT';
+    private $title      = 'Tentang RISMAJT';
 
     public function __construct()
     {

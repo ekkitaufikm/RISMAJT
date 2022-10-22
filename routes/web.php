@@ -20,7 +20,7 @@ Route::get('logout', ('AuthController@logout'));
 Route::post('loginProses', ('AuthController@loginProses'));
 
 // tentang risma
-Route::get('About', ('Landing\ServiceController@index'));
+Route::get('About', ('Landing\AboutusController@index'));
 
 //pengurus harian
 Route::get('pengurus_harian', ('Landing\PengurusHarianController@index'));

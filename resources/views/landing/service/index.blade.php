@@ -17,8 +17,8 @@
                     <h2>Service</h2>
                 </div>
                 <div class="col-12">
-                    <a href="">Home</a>
-                    <a href="">Service</a>
+                    <a href="{{ url('/') }}">Home</a>
+                    <a href="{{ url('#') }}" activelink>About Us</a>
                 </div>
             </div>
         </div>
@@ -116,7 +116,7 @@
             <div class="owl-carousel causes-carousel">
                 <div class="causes-item">
                     <div class="causes-img">
-                        <img src="img/causes-1.jpg" alt="Image">
+                        <img src="{{ asset('assets/landing/img/jalan2.jpeg') }}" alt="Image">
                     </div>
                     <div class="causes-progress">
                         <div class="progress">
