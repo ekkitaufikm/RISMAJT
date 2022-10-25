@@ -37,3 +37,14 @@ Route::get('sosial', ('Landing\SosialController@index'));
 Route::get('dakwah', ('Landing\DakwahController@index'));
 Route::get('ekonomi', ('Landing\EkonomiController@index'));
 Route::get('pers', ('Landing\PersController@index'));
+
+Route::middleware(['login'])->group(function () {
+    
+    Route::middleware(['admin'])->group(function () {
+
+        //data master
+        Route::resource('admin/dashboard', 'Admin\DashboardController');
+        
+    });
+
+});

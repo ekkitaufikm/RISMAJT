@@ -37,13 +37,13 @@ class AuthController extends Controller
     {
         // Validate
         $credentials = $request->validate([
-            'nip'       => 'required',
+            'username'       => 'required',
             'password'  => 'required',
         ]);
 
         // dd('berhasil login!');
         // Get Data
-        $users = $this->mUser->where('nip', $request->nip)->first();
+        $users = $this->mUser->where('username', $request->username)->first();
         
         // Check User
         if ($users == null) {
@@ -58,17 +58,17 @@ class AuthController extends Controller
         $dataUser = [
             'last_login' => date('Y-m-d H:i:s'),
         ];
-        $this->mUser->where('idUsers', $users->idUsers)->update($dataUser);
+        $this->mUser->where('id', $users->id)->update($dataUser);
         $jabatan = $this->mJabatan->get();
         // echo json_encode($users); die;
         // Create Session
 
         if($users->role == 1){
             $session = [
-                'idUsers'   => $users->idUsers,
+                'id'   => $users->id,
                 'nama'      => $users->nama,
                 'role'      => $users->role,
-                
+                'isLogin'       => true,
             ];
 
             session($session);
@@ -76,7 +76,7 @@ class AuthController extends Controller
         }
         else if($users->role == 2){
             $session = [
-                'idUsers'       => $users->idUsers,
+                'id'       => $users->id,
                 'nama'          => $users->nama,
                 'role'          => $users->role,
                 'isLogin'       => true,
@@ -140,6 +140,7 @@ class AuthController extends Controller
             'password'      => Hash::make('katasandi'),
             'sandi'         => 'katasandi',
             'role'          => 1,
+            'status'        => 1,
         ];
         $users = $this->mUser->create($dataAdmin);
 

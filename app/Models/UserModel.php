@@ -12,6 +12,16 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class UserModel extends Model
 {
     protected $table = 'users';
-    protected $guarded = ['idUsers'];
+    protected $guarded = ['id'];
+
+    public function jabatan()
+    {
+        return $this->belongsTo(JabatanModel::class, 'id', 'id');
+    }
+
+    public function departemen()
+    {
+        return $this->belongsTo(DepartemenModel::class, 'id', 'id');
+    }
 
 }
