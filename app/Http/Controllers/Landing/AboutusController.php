@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class AboutusController extends Controller
 {
     // Untuk panggil view
-    private $views      = 'landing/service';
+    private $views      = 'landing/About';
     
     // Untuk keperluan redirect, hubungannya route / file web
     private $url        = 'About-us';
