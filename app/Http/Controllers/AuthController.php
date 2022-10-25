@@ -135,7 +135,7 @@ class AuthController extends Controller
 
     public function registerPaksa(){
         $dataAdmin = [
-            'nip'           => '12345',
+            'username'      => 'admin',
             'nama'          => 'Admin Pro',
             'password'      => Hash::make('katasandi'),
             'sandi'         => 'katasandi',
