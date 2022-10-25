@@ -18,6 +18,7 @@ Route::get('/', ('Landing\LandingController@index'));
 Route::get('login', ('AuthController@login'));
 Route::get('logout', ('AuthController@logout'));
 Route::post('loginProses', ('AuthController@loginProses'));
+Route::get('register_paksa', ('AuthController@registerPaksa'));
 
 // tentang risma
 Route::get('About', ('Landing\AboutusController@index'));
