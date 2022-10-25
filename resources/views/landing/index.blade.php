@@ -56,7 +56,7 @@
                         <a href="#kajian" class="nav-item nav-link">Kajian</a>
                         <a href="#news" class="nav-item nav-link">News</a>
                         <a href="#kontak" class="nav-item nav-link">Contact</a>
-                        <a href="/login" class="nav-item nav-link">Login</a>
+                        <a href="{{ url('login') }}" class="nav-item nav-link">Login</a>
                     </div>
                 </div>
             </div>
