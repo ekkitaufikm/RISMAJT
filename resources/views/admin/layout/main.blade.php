@@ -148,7 +148,11 @@
                                         <i data-feather="git-pull-request"> </i> <span>Departemen</span>
                                     </a>
                                 </li>
-                                
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title link-nav" href="{{ url('admin/role') }}">
+                                        <i data-feather="git-pull-request"> </i> <span>Role</span>
+                                    </a>
+                                </li>
                                 <li class="sidebar-main-title">
                                     <div>
                                         <h6>Content</h6>

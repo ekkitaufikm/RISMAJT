@@ -23,4 +23,9 @@ class UserModel extends Model
     {
         return $this->belongsTo(DepartemenModel::class, 'id', 'id');
     }
+
+    public function role()
+    {
+        return $this->belongsTo(RoleModel::class, 'id', 'id');
+    }
 }

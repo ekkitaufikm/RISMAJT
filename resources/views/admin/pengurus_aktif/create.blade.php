@@ -70,9 +70,9 @@
                         <label>Role</label>
                         <select class="form-select" name="role">
                             <option value="">Pilih Role</option>
-                            <option value="1">Super Admin</option>
-                            <option value="2">Pers</option>
-                            <option value="3">Humas</option>
+                            @foreach ($role as $r) 
+                                <option value="{{ $r->id }}">{{ $r->nama }}</option>
+                            @endforeach
                         </select>
                     </div>
                     <div class="form-group mb-3">

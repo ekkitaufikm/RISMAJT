@@ -48,6 +48,7 @@ Route::middleware(['login'])->group(function () {
         //master data
         Route::resource('admin/pengurus_aktif', 'Admin\UsersController');
         Route::resource('admin/jabatan', 'Admin\JabatanController');
+        Route::resource('admin/role', 'Admin\RoleController');
         Route::resource('admin/departemen', 'Admin\DepartemenController');
         
     });

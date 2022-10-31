@@ -13,6 +13,7 @@ use File;
 use App\Models\UserModel;
 use App\Models\JabatanModel;
 use App\Models\DepartemenModel;
+use App\Models\RoleModel;
 
 class UsersController extends Controller
 {
@@ -33,6 +34,7 @@ class UsersController extends Controller
         $this->mUsers            = new UserModel();
         $this->mJabatan          = new JabatanModel();
         $this->mDepartemen          = new DepartemenModel();
+        $this->mRole          = new RoleModel();
     }
 
     public function index()
@@ -60,6 +62,7 @@ class UsersController extends Controller
     {
         $jabatan        = $this->mJabatan->get();
         $departemen        = $this->mDepartemen->get();
+        $role        = $this->mRole->get();
         $users          = $this->mUsers->get();
 
         $data = [
@@ -68,6 +71,7 @@ class UsersController extends Controller
             'page'              => 'Tambah Data Pengurus Aktif',
             'jabatan'           => $jabatan,
             'departemen'           => $departemen,
+            'role'           => $role,
             'users'             => $users,
         ];
         // View, menuju file index di dalam folder = admin/mprovinsi
@@ -114,6 +118,7 @@ class UsersController extends Controller
          // 
          $users          = $this->mUsers->where('id', $id)->first();
          $departemen        = $this->mDepartemen->get();
+         $role        = $this->mRole->get();
          $jabatan        = $this->mJabatan->get();
 
          $data = [
@@ -122,6 +127,7 @@ class UsersController extends Controller
              'page'          => 'Edit Data Pengurus Aktif',
              'id'            => $id,
              'users'         => $users,
+             'role'           => $role,
              'jabatan'       => $jabatan,
              'departemen'           => $departemen,
          ];
